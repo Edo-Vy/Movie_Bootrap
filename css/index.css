@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* header */
+
+#navbarNavAltMarkup{
+    text-align: center;
+    justify-content: end;
+}
+.navbar-nav a {
+    color: white!important;
+    position: relative;
+  
+    
+}
+.navbar-nav a::after{
+    position: absolute;
+    content: "";
+    bottom: 2px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background :linear-gradient( to right,#fbbd61, #ec7532 );
+}
+.navbar-nav a:hover::after{
+    height: 2px;
+    width: 100%;
+    transition: 0.3s;
+}
+.header__info{
+    text-align: end;
+}
