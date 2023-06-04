@@ -10,16 +10,22 @@ html, body {
 
 
 /* header */
-
+.header{
+    position: absolute;
+    z-index: 5;
+    
+}
 #navbarNavAltMarkup{
     text-align: center;
     justify-content: end;
 }
+.navbar-nav{
+    border-bottom: 1px solid #717171;
+  
+}
 .navbar-nav a {
     color: white!important;
     position: relative;
-  
-    
 }
 .navbar-nav a::after{
     position: absolute;
@@ -37,4 +43,11 @@ html, body {
 }
 .header__info{
     text-align: end;
+    margin-right: 40px!important;
+}
+
+/* carousel */
+.carousel{
+
+    position: relative;
 }
